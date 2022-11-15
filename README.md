@@ -9,7 +9,15 @@ Although digital water meters are introduced in recent times and are used in wor
 
 detailed **documentation** of the project can be found [here](https://drive.google.com/drive/folders/1e-ycQkM5Z1he4UFkH-HIAj8n3jgiuLwc?usp=sharing).
 
-<img src="https://github.com/lonebots/water-meter-project/blob/master/documentation/casing.jpg" alt = "water-meter-monitoring-device">
+<p align="center">
+<img src="documentation/watermeter.jpg" alt="water-meter-monitoring-device" height="200" widht="auto">
+
+<img src="documentation/casing.jpg" alt="water-meter-monitoring-device" height="200" widht="auto">
+
+<img src="documentation/circuitsetup.jpg" alt="water-meter-circuit" height="200" widht="auto">
+
+<img src="documentation/relay.jpg" alt="water-meter-relay" height="200" widht="auto">
+</p>
 
 Different technologies used to build this project are :
  - RaspberryPi
