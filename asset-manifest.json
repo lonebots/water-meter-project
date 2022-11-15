@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/water-meter-project/static/css/main.e1db8a67.css",
+    "main.js": "/water-meter-project/static/js/main.de99903e.js",
+    "static/media/favicon.ico": "/water-meter-project/static/media/favicon.83b7f0c41a945667299a.ico",
+    "index.html": "/water-meter-project/index.html",
+    "main.e1db8a67.css.map": "/water-meter-project/static/css/main.e1db8a67.css.map",
+    "main.de99903e.js.map": "/water-meter-project/static/js/main.de99903e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1db8a67.css",
+    "static/js/main.de99903e.js"
+  ]
+}
