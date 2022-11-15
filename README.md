@@ -7,7 +7,7 @@ The conventional method of manually reading analog meters to calculate a consump
 Although digital water meters are introduced in recent times and are used in workplaces like government institutions, hospitals, they are very expensive. Also, the digital water meter themselves do not give any inference or do not do any analytical analysis on the water consumption patterns. The project was implemented for conserving water in a better manner.
 </p>
 
-detailed **documentation** of the project can be found [here](https://lonebots.github.io/water-meter-project/).
+detailed **documentation** of the project can be found [here](https://drive.google.com/drive/folders/1e-ycQkM5Z1he4UFkH-HIAj8n3jgiuLwc?usp=sharing).
 
 <img src="https://github.com/lonebots/water-meter-project/blob/master/documentation/casing.jpg" alt = "water-meter-monitoring-device">
 
