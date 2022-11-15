@@ -4,3 +4,6 @@ watermeter-backend/node_modules
 
 # vscode
 .vscode
+
+# production
+watermeter-frontend/build
