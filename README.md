@@ -32,7 +32,7 @@ Different technologies used to build this project are :
 
 ## Deployment
 
-Click [me](https://lonebots.github.io/water-meter-project/) for the live demo of the web application (some of the functionalities may be unavailabe since the application is not connected to the database.)
+Click [me](https://watermeterapp.netlify.app/) for the live demo of the web application (some of the functionalities may be unavailabe since the application is not connected to the database.)
 ## Features
 
 - **for users**  
