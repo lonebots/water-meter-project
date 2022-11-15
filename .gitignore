@@ -1,2 +1,6 @@
+# node modules
 watermeter-frontend/node_modules
 watermeter-backend/node_modules
+
+# vscode
+.vscode
