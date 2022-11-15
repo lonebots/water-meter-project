@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "homepage": "httsp://lonebots.github.io/water-meter-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
