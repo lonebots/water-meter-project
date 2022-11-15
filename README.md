@@ -59,10 +59,8 @@ Click [me](https://lonebots.github.io/water-meter-project/) for the live demo of
 ## Contributing
 
 Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
+- See `contributing.md` for ways to get started.
+- Please adhere to this project's `code of conduct`.
 
 
 ## Project Team
