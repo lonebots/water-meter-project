@@ -45,7 +45,7 @@ Click [me](https://lonebots.github.io/water-meter-project/) for the live demo of
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[GNU Lesser General Public License v2.1](https://github.com/lonebots/water-meter-project/blob/main/LICENSE)
 
 
 ## Contributing
