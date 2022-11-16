@@ -69,3 +69,4 @@ Contributions are always welcome!
 - [Anirudh](https://github.com/Anirudhkv)
 - [Jishnu Suresh](https://www.github.com/lonebots)
 
+[![](https://contrib.rocks/image?repo=lonebots/water-meter-project)](https://github.com/lonebots/water-meter-project/graphs/contributors)
