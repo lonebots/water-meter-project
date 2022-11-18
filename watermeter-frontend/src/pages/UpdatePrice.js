@@ -13,7 +13,6 @@ const UpdatePrice = () => {
 
   useEffect(() => {
     setToken(localStorage.getItem("dataToken"));
-    console.log(token);
   }, []);
 
   const updatePrice = () => {
@@ -29,11 +28,11 @@ const UpdatePrice = () => {
           Authorization: "Bearers " + token,
         },
       })
-      .then((res) => {
+      .then(res => {
         setLoading(false);
         alert("Price Updated");
       })
-      .catch((err) => {
+      .catch(err => {
         setLoading(false);
         console.log(err);
       });
@@ -46,11 +45,11 @@ const UpdatePrice = () => {
           Authorization: "Bearers " + token,
         },
       })
-      .then((res) => {
+      .then(res => {
         navigate("/login");
         alert("You have successfully logged out");
       })
-      .catch((err) => {
+      .catch(err => {
         console.log(err);
       });
   };
@@ -77,14 +76,14 @@ const UpdatePrice = () => {
         item4Click={signOut}
         waterauthority="കേരള വാട്ടർ അതോറിറ്റി"
       />
-      <div class="relative top-10 mx-auto p-5 border w-6/12 shadow-lg rounded-md bg-white">
+      <div class="relative top-10 mx-auto w-6/12 rounded-md border bg-white p-5 shadow-lg">
         <div class="mt-3">
-          <div class="block p-6 rounded-lg  bg-white max-w-sm">
+          <div class="block max-w-sm rounded-lg  bg-white p-6">
             <form>
               <div class="form-group mb-6">
                 <label
                   for="exampleInputEmail1"
-                  class="form-label inline-block mb-2 text-gray-700"
+                  class="form-label mb-2 inline-block text-gray-700"
                 >
                   അളവ് (KL)
                 </label>
@@ -92,25 +91,25 @@ const UpdatePrice = () => {
                   required
                   type="text"
                   class="form-control
+                  m-0
                   block
                   w-full
-                  px-3
-                  py-1.5
-                  text-base
+                  rounded-full
+                  border
+                  border-solid
+                  border-gray-300
+                  bg-white bg-clip-padding
+                  px-3 py-1.5 text-base
                   font-normal
                   text-gray-700
-                  bg-white bg-clip-padding
-                  border border-solid border-gray-300
-                  rounded-full
                   transition
                   ease-in-out
-                  m-0
-                  focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                  focus:border-blue-600 focus:bg-white focus:text-gray-700 focus:outline-none"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                   placeholder="Select Quantity..."
                   value={quantity}
-                  onChange={(event) => {
+                  onChange={event => {
                     setQuantity(event.target.value);
                   }}
                 />
@@ -118,31 +117,31 @@ const UpdatePrice = () => {
               <div class="form-group mb-6">
                 <label
                   for="exampleInputPassword1"
-                  class="form-label inline-block mb-2 text-gray-700"
+                  class="form-label mb-2 inline-block text-gray-700"
                 >
                   പുതിയ തുക
                 </label>
                 <input
                   required
                   type="text"
-                  class="form-control block
+                  class="form-control m-0
+                  block
                   w-full
-                  px-3
-                  py-1.5
-                  text-base
+                  rounded-full
+                  border
+                  border-solid
+                  border-gray-300
+                  bg-white bg-clip-padding
+                  px-3 py-1.5 text-base
                   font-normal
                   text-gray-700
-                  bg-white bg-clip-padding
-                  border border-solid border-gray-300
-                  rounded-full
                   transition
                   ease-in-out
-                  m-0
-                  focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                  focus:border-blue-600 focus:bg-white focus:text-gray-700 focus:outline-none"
                   id="exampleInputPassword1"
                   placeholder="Select price..."
                   value={price}
-                  onChange={(event) => {
+                  onChange={event => {
                     setPrice(event.target.value);
                   }}
                 />
@@ -151,22 +150,22 @@ const UpdatePrice = () => {
               <button
                 type="submit"
                 class="
+                rounded-full
+                bg-gray-900
                 px-6
                 py-2.5
-                bg-gray-900
-                text-white
-                font-medium
                 text-xs
-                leading-tight
+                font-medium
                 uppercase
-                rounded-full
+                leading-tight
+                text-white
                 shadow-md
-                hover:bg-gray-700 hover:shadow-lg
-                focus:bg-gray-700 focus:shadow-lg focus:outline-none focus:ring-0
-                active:bg-gray-800 active:shadow-lg
-                transition
-                duration-150
-                ease-in-out"
+                transition duration-150
+                ease-in-out hover:bg-gray-700 hover:shadow-lg focus:bg-gray-700
+                focus:shadow-lg focus:outline-none
+                focus:ring-0
+                active:bg-gray-800
+                active:shadow-lg"
                 id="addcustomer"
                 disabled={loading}
                 onClick={updatePrice}
@@ -176,22 +175,22 @@ const UpdatePrice = () => {
               <button
                 type="reset"
                 class="
+                rounded-full
+                bg-gray-900
                 px-6
                 py-2.5
-                bg-gray-900
-                text-white
-                font-medium
                 text-xs
-                leading-tight
+                font-medium
                 uppercase
-                rounded-full
+                leading-tight
+                text-white
                 shadow-md
-                hover:bg-gray-700 hover:shadow-lg
-                focus:bg-gray-700 focus:shadow-lg focus:outline-none focus:ring-0
-                active:bg-gray-800 active:shadow-lg
-                transition
-                duration-150
-                ease-in-out"
+                transition duration-150
+                ease-in-out hover:bg-gray-700 hover:shadow-lg focus:bg-gray-700
+                focus:shadow-lg focus:outline-none
+                focus:ring-0
+                active:bg-gray-800
+                active:shadow-lg"
               >
                 കളയുക
               </button>

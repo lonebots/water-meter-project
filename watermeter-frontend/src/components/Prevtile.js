@@ -1,21 +1,22 @@
-import React from 'react';
+import React from "react";
 
-const PrevTile=(props)=>(
-    <tbody>
-        <tr class="bg-gray-200 border-b">
-               <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{props.id}</td>
-               <td class="text-base text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
-                 {props.monthYear}
-               </td>
-               <td class="text-base text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
-                 {props.totalCost}
-               </td>
-               <td class="text-base text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
-                 {props.status}
-               </td>
-             </tr>
-    </tbody>
-    
+const PrevTile = props => (
+  <tbody>
+    <tr class="border-b bg-gray-200">
+      <td class="whitespace-nowrap px-6 py-4 text-sm font-medium text-gray-900">
+        {props.id}
+      </td>
+      <td class="whitespace-nowrap px-6 py-4 text-base font-medium text-gray-900">
+        {props.monthYear}
+      </td>
+      <td class="whitespace-nowrap px-6 py-4 text-base font-medium text-gray-900">
+        {props.totalCost}
+      </td>
+      <td class="whitespace-nowrap px-6 py-4 text-base font-medium text-gray-900">
+        {props.status}
+      </td>
+    </tr>
+  </tbody>
 );
 
-export default PrevTile
+export default PrevTile;

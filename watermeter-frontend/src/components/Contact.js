@@ -1,55 +1,55 @@
-import React from 'react';
+import React from "react";
 
 const Contact = () => (
-  <section class="text-gray-600 body-font relative">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="flex flex-col text-center w-full mb-12">
-        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+  <section class="body-font relative text-gray-600">
+    <div class="container mx-auto px-5 py-24">
+      <div class="mb-12 flex w-full flex-col text-center">
+        <h1 class="title-font mb-4 text-2xl font-medium text-gray-900 sm:text-3xl">
           ബന്ധപെടുക
         </h1>
       </div>
-      <div class="lg:w-1/2 md:w-2/3 mx-auto">
-        <div class="flex flex-wrap -m-2">
-          <div class="p-2 w-1/2">
+      <div class="mx-auto md:w-2/3 lg:w-1/2">
+        <div class="-m-2 flex flex-wrap">
+          <div class="w-1/2 p-2">
             <div class="relative">
-              <label for="name" class="leading-7 text-sm text-gray-600">
+              <label for="name" class="text-sm leading-7 text-gray-600">
                 പേര്
               </label>
               <input
                 type="text"
                 id="name"
                 name="name"
-                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                class="w-full rounded border border-gray-300 bg-gray-100 bg-opacity-50 py-1 px-3 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
               />
             </div>
           </div>
-          <div class="p-2 w-1/2">
+          <div class="w-1/2 p-2">
             <div class="relative">
-              <label for="email" class="leading-7 text-sm text-gray-600">
+              <label for="email" class="text-sm leading-7 text-gray-600">
                 ഇമെയിൽ
               </label>
               <input
                 type="email"
                 id="email"
                 name="email"
-                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                class="w-full rounded border border-gray-300 bg-gray-100 bg-opacity-50 py-1 px-3 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
               />
             </div>
           </div>
-          <div class="p-2 w-full">
+          <div class="w-full p-2">
             <div class="relative">
-              <label for="message" class="leading-7 text-sm text-gray-600">
+              <label for="message" class="text-sm leading-7 text-gray-600">
                 സന്ദേശം
               </label>
               <textarea
                 id="message"
                 name="message"
-                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                class="h-32 w-full resize-none rounded border border-gray-300 bg-gray-100 bg-opacity-50 py-1 px-3 text-base leading-6 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
               ></textarea>
             </div>
           </div>
-          <div class="p-2 w-full">
-            <button class="flex mx-auto text-white bg-gray-900 border-0 py-2 px-8 focus:outline-none hover:bg-gray-300 rounded-full text-lg">
+          <div class="w-full p-2">
+            <button class="mx-auto flex rounded-full border-0 bg-gray-900 py-2 px-8 text-lg text-white hover:bg-gray-300 focus:outline-none">
               അയക്കുക
             </button>
           </div>

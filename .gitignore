@@ -7,3 +7,4 @@ watermeter-backend/node_modules
 
 # production
 watermeter-frontend/build
+node_modules
