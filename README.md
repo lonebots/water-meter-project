@@ -64,9 +64,8 @@ Contributions are always welcome!
 
 
 ## Project Team
-- [Sooraj Bhaskaran](https://github.com/soorajbhskrn)
-- [Ajay Ram K](https://github.com/ajayrmk)
-- [Anirudh](https://github.com/Anirudhkv)
-- [Jishnu Suresh](https://www.github.com/lonebots)
+<a href='https://github.com/soorajbhskrn'>[![](https://github.com/soorajbhskrn.png?size=50)](https://github.com/soorajbhskrn)</a> &nbsp;
+<a href='https://github.com/lonebots'>[![](https://github.com/lonebots.png?size=50)](https://github.com/lonebots)</a> &nbsp;
+<a href='https://github.com/ajayrmk'>[![](https://github.com/ajayrmk.png?size=50)](https://github.com/ajayrmk)</a> &nbsp;
+<a href='https://github.com/Anirudhkv'>[![](https://github.com/Anirudhkv.png?size=50)](https://github.com/Anirudhkv)</a>
 
-[![](https://contrib.rocks/image?repo=lonebots/water-meter-project)](https://github.com/lonebots/water-meter-project/graphs/contributors)
