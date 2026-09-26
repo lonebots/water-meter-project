@@ -64,7 +64,7 @@ Contributions are always welcome!
 
 
 ## Project Team
-<a href='https://github.com/soorajbhskrn'>[![](https://github.com/soorajbhskrn.png?size=50)](https://github.com/soorajbhskrn)</a> &nbsp;
+<a href='https://github.com/soorajbhskrn'>[![](https://github.com/soorajbhskrn.png?size=50)](https://github.com/soorajbhaskaran)</a> &nbsp;
 <a href='https://github.com/lonebots'>[![](https://github.com/lonebots.png?size=50)](https://github.com/lonebots)</a> &nbsp;
 <a href='https://github.com/ajayrmk'>[![](https://github.com/ajayrmk.png?size=50)](https://github.com/ajayrmk)</a> &nbsp;
 <a href='https://github.com/Anirudhkv'>[![](https://github.com/Anirudhkv.png?size=50)](https://github.com/Anirudhkv)</a>
